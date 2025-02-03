@@ -54,12 +54,6 @@ Got it! Here’s the updated attribution with the correct author link:
 
 ---
 
-## 🎨 **Icon Attribution**  
-
-The icon used in this extension is provided by [Flaticon](https://www.flaticon.com) and created by [Flat Icons](https://www.flaticon.com/authors/flat-icons-com).
-
----
-
 ## 📜 **License**  
 
 This project is licensed under the [MIT License](LICENSE).  
