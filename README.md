@@ -50,10 +50,6 @@ Contributions are welcome! Feel free to submit issues or pull requests.
 
 ---
 
-Got it! Here’s the updated attribution with the correct author link:
-
----
-
 ## 📜 **License**  
 
 This project is licensed under the [MIT License](LICENSE).  
