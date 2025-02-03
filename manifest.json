@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Quick Dictionary Lookup",
+    "version": "1.0.1",
+    "description": "A simple and powerful Chrome extension that adds a right-click context menu to look up selected words in online dictionaries.",
+    "permissions": ["contextMenus","tabs","storage"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "run_at": "document_start",
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "action": {
+        "default_title": "Quick Dictionary Lookup",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "24": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
