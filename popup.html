@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Dictionary Lookup</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="table-frame d-flex flex-column">
+   <table class="table">
+    <caption class="text-center">Choose a Dictionary</caption>
+        <tr>
+           <td>Cambridge</td>
+           <td>
+              <div class="form-check form-switch form-check-reverse">
+                 <input id="sw-1" class="form-check-input" type="checkbox" value="https://dictionary.cambridge.org/dictionary/english">
+              </div>
+           </td>
+        </tr>
+        <tr>
+           <td>Oxford</td>
+           <td>
+              <div class="form-check form-switch form-check-reverse">
+                 <input id="sw-2" class="form-check-input" type="checkbox" value="https://www.oxfordlearnersdictionaries.com/definition/english">
+              </div>
+           </td>
+        </tr>
+        <tr>
+           <td style="border-bottom:none;">Merriam Webster</td>
+           <td style="border-bottom:none;">
+              <div class="form-check form-switch form-check-reverse">
+                 <input id="sw-3" class="form-check-input" type="checkbox" value="https://www.merriam-webster.com/dictionary">
+              </div>
+           </td>
+        </tr>
+   </table>
+   <input id="search" class="form-control form-control-sm mt-1 mb-3" type="text" placeholder="Enter a word to lookup">
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
